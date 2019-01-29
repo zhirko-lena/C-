@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(90): warning C4101: 'roll': unreferenced local variable
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(90): warning C4101: 'pointAI': unreferenced local variable
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(90): warning C4101: 'pointPlayer': unreferenced local variable
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(91): error C4700: uninitialized local variable 'dice1' used
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(91): error C4700: uninitialized local variable 'dice2' used
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(92): error C4700: uninitialized local variable 'dice3' used
+d:\c++\lz-cw-12-11\project1\project1\source.cpp(92): error C4700: uninitialized local variable 'dice4' used
