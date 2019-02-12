@@ -137,7 +137,7 @@ void Negative(int arr[], const int Size) {
 			b=arr[i]+;
 
 	}
-	cout << "Count og negative elements = " << b/Size << endl;
+	cout << "Count of negative elements = " << b/Size << endl;
 }*/
 
 int Max(int arr[], const int Size) {
