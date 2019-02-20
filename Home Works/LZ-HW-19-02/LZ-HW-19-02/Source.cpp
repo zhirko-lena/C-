@@ -4,40 +4,52 @@
 using namespace std;
 
 
+/*-----------------Task 1-------------------------*/
 
+void FillArr(int arr[], const int Size) {
 
-void FVAL(int a) {
-	cout << "FVAL A Value = " << a << "; A address=" << &a << endl;
-	a += 100;
-	cout << "FVAL A Value = " << a << "; A address=" << &a << endl;
+	for (int i = 0; i < Size; i++)
+	{
+		arr[i] = rand() % 32 + -12;
+	}
 }
 
-void FREF(int &a) {
-	cout << "FREF A Value = " << a << "; A address=" << &a << endl;
-	a += 300;
-	cout << "FREF A Value = " << a << "; A address=" << &a << endl;
+void Print(int arr[], const int Size) {
+	cout << " PrintArr " << endl;
+	for (int i = 0; i < Size; i++) {
+		cout << "arr[" << i << "] = " << arr[i] << endl;
+	}
+	
+	cout << " PrintArr backwords " << endl;
+	for (int i = Size; i <= 0; i--) {
+		cout << "arr[" << i << "] = " << arr[i] << endl;
+	}
+
 }
 
 
 
 int main()
 {
-	int a = 10;
-	cout << "A Value = " << a << "; A address=" << &a << endl;
-	int &Ra = a;
-	//cout << Ra << &Ra << endl;
-	int *P;
-	//int &R;
+	srand(unsigned(time(NULL)));
+	const int SIZE = 7;
+	int arr1[SIZE];
+	int arr2[SIZE];
+	FillArr(arr1, SIZE);
+	Print(arr1, SIZE);
+	FillArr(arr2, SIZE);
+	Print(arr2, SIZE);
 
-	FVAL(a);
-	cout << "A Value = " << a << "; A address=" << &a << endl;
 
-	FREF(Ra);
-	cout << "A Value = " << a << "; A address=" << &a << endl;
+
+
+
+
 
 
 
 
 	system("pause");
 	return 0;
+
 }
