@@ -1,0 +1,15 @@
+﻿  Source.cpp
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(163): error C2144: syntax error: 'int' should be preceded by ')'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(163): error C2059: syntax error: ';'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(163): error C2065: 'j': undeclared identifier
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(163): error C2059: syntax error: ')'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(165): error C2065: 'i': undeclared identifier
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(165): error C2065: 'j': undeclared identifier
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(165): error C2059: syntax error: ';'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(167): error C2059: syntax error: '}'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(167): error C2143: syntax error: missing ';' before '}'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(171): error C2143: syntax error: missing ';' before '{'
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(171): error C2447: '{': missing function header (old-style formal list?)
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(214): error C2664: 'void FillArr(int [],const int,const int)': cannot convert argument 1 from 'int [3][11]' to 'int []'
+  d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(214): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\c++\class works\lc-cw-26-02\lc-cw-26-02\source.cpp(215): error C3861: 'Print': identifier not found
