@@ -1,0 +1,2 @@
+﻿  Source.cpp
+d:\c++\class works\cw-lz-03-05-2019\cw-lz-03-05-2019\source.cpp(147): error C4700: uninitialized local variable 'Menu' used
